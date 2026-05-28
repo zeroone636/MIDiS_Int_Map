@@ -3,7 +3,7 @@ export const FLOORS_DATA = [
     id: 'inst_f1',
     name: 'Этаж 1 институт',
     title: 'Этаж 1',
-    image: '/public/img/FirstFloor.svg',
+    image: 'img/FirstFloor.svg',
     legend: [
       { icon: '/public/icons/FirstIcons/Clothes.svg', label: 'Гардероб' },
       { icon: '/public/icons/FirstIcons/Toilet.svg', label: 'Туалеты' },

@@ -6,7 +6,7 @@ const Header = () => {
       <div className="max-w-[1600px] mx-auto flex items-center justify-between gap-4">
         <div className="flex items-center gap-2">
             <img 
-                src="/public/img/Logo.png" 
+                src="img/Logo.png" 
                 alt="Логотип МИДиС"
                 className="h-8 md:h-10 w-auto object-contain"
             />

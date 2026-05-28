@@ -7,7 +7,7 @@ const Footer = () => {
         
         <div className="flex items-center gap-3.5">
             <img 
-                src="/public/img/Logo.png" 
+                src="img/Logo.png" 
                 alt="Логотип МИДиС"
                 className="h-7 md:h-8 w-auto object-contain shrink-0"
             />

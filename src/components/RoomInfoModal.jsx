@@ -44,6 +44,34 @@ const RoomInfoModal = ({ room, onClose }) => {
               </div>
             )}
 
+            {room.workingHours && (
+              <div className="space-y-3">
+                <h5 className="text-xs font-bold text-gray-400 uppercase tracking-widest pl-1">
+                  {room.workingHours.title || 'Режим работы:'}
+                </h5>
+                <div className="bg-orange-50/30 rounded-xl border border-orange-100 overflow-hidden divide-y divide-orange-100 shadow-xs">
+                  {room.workingHours.items.map((item, idx) => (
+                    <div key={idx} className="p-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-sm bg-white/60">
+                      <span className="font-semibold text-gray-800 flex items-center gap-2">
+                        <span className={`w-2 h-2 rounded-full ${item.isClosed ? 'bg-red-400 animate-pulse' : 'bg-emerald-500'}`} />
+                        {item.days}
+                      </span>
+                      <div className="text-left sm:text-right flex flex-col items-start sm:items-end">
+                        <span className={`font-mono font-bold ${item.isClosed ? 'text-red-500' : 'text-gray-900'}`}>
+                          {item.hours}
+                        </span>
+                        {item.subtitle && (
+                          <span className="text-xs text-orange-600 font-medium mt-0.5">
+                            {item.subtitle}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {room.staff && room.staff.map((person, idx) => (
               <div key={idx} className="flex flex-col sm:flex-row items-center sm:items-start gap-4 p-4 rounded-2xl bg-gray-200 border border-gray-300 shadow-xs">
                 <div className="w-24 h-28 sm:w-20 sm:h-24 bg-gray-300 rounded-lg overflow-hidden shrink-0 border border-gray-400">

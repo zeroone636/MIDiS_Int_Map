@@ -195,7 +195,7 @@ export const FLOORS_DATA = [
     image: 'img/SchoolThirdFloor.svg',
     legend: [
       { icon: 'icons/SchoolThirdIcons/Mask.svg', label: 'Сцена' },
-      { icon: 'icons/SchoolThirdIcons/Seat.svg', label: 'Зал' },
+      { icon: 'icons/SchoolThirdIcons/Seat.svg', label: 'Зрительный зал' },
       { icon: 'icons/SchoolThirdIcons/Kulisi.svg', label: 'Кулисы' },
     ],
     rooms: [

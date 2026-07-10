@@ -17,7 +17,7 @@ export const FLOORS_DATA = [
       { icon: 'icons/FirstIcons/Deans.svg', label: 'Деканат' },
     ],
     rooms: [
-      { id: '107', number: 'Кабинет 107', x: 74, y: 86, icon: 'icons/FirstIcons/Voenkom.svg', size: 'xs', staff: [ { role: "Специалист по воинскому учёту", name: "Чиркова Марина Владимировна", roomLabel: "107 каб.", phone: "+7 (950) 741-77-12", photo: "photos/FirstFloor/Chirkova.svg" } ] },
+      { id: '107', number: 'Кабинет 107', x: 74, y: 85, icon: 'icons/FirstIcons/Voenkom.svg', size: 'xs', staff: [ { role: "Специалист по воинскому учёту", name: "Чиркова Марина Владимировна", roomLabel: "107 каб.", phone: "+7 (950) 741-77-12", photo: "photos/FirstFloor/Chirkova.svg" } ] },
       { id: 'Clothes', number: '', name: 'Гардероб', description: 'Здесь можно оставить верхнюю одежду', x: 71, y: 68, icon: 'icons/FirstIcons/Clothes.svg', size: 'xs' },
       { id: 'Cafe', number: '', name: 'Бистро "Апельсин"', description: 'Здесь можно перекусить', x: 40, y: 70, icon: 'icons/FirstIcons/Cafe.svg', size: 'xs', workingHours: {
           title: 'Режим работы Бистро «АПЕЛЬСИН»',
@@ -104,7 +104,7 @@ export const FLOORS_DATA = [
     ],
     rooms: [
       { id: 'WC6', number: '', name: 'Туалеты', description: 'Мужской и женский туалет', x: 60, y: 90, icon: 'icons/SecondHalfIcons/Toilet.svg', size: 'xs' },
-      { id: '343', number: 'Кабинет 343', x: 39, y: 96, icon: 'icons/SecondHalfIcons/Calc.svg', size: 'xs', staff: [ { role: "Заведующий кафедрой экономики и управления", name: "Бодрова Екатерина Григорьевна", roomLabel: "343 каб.", phone: "+7 (351) 216-10-51", photo: "photos/SecondFloor/Bodrova.jpg" } ] },
+      { id: '343', number: 'Кабинет 343', x: 42, y: 96, icon: 'icons/SecondHalfIcons/Calc.svg', size: 'xs', staff: [ { role: "Заведующий кафедрой экономики и управления", name: "Бодрова Екатерина Григорьевна", roomLabel: "343 каб.", phone: "+7 (351) 216-10-51", photo: "photos/SecondFloor/Bodrova.jpg" } ] },
       { id: '345', number: 'Кабинет 345', name: 'Преподавательская кафедры экономики и управления', description: 'Преподавательская кафедры экономики и управления', x: 49, y: 90, icon: 'icons/SecondHalfIcons/Lamp.svg', size: 'xs' },
     ]
   },
@@ -126,11 +126,11 @@ export const FLOORS_DATA = [
     rooms: [
       { id: '303', number: 'Кабинет 303', name: 'Музей моды', description: 'Уникальная коллекция костюмов различных эпох', x: 24.5, y: 85, icon: 'icons/ThirdIcons/Museum.svg', size: 'xs' },
       { id: 'WC7', number: '', name: 'Туалеты', description: 'Мужской и женский туалет', x: 55, y: 18, icon: 'icons/ThirdIcons/Toilet.svg', size: 'xs' },
-      { id: '339', number: 'Кабинет 339', name: 'Учебно-методическое управление', x: 11, y: 55, icon: 'icons/ThirdIcons/Metod.svg', size: 'xs', staff: [ { role: "Специалист по учебно-методической работе (кафедра дизайна, рисунка и живописи)", name: "Швецова Надежда Сергеевна", roomLabel: "339 каб.", phone: "+7 (351) 216-10-08", photo: "photos/ThirdFloor/Shvetsova.jpg" } ] },
-      { id: '307', number: 'Кабинет 307', name: 'Кафедра дизайна', x: 44, y: 85, icon: 'icons/ThirdIcons/palette.svg', size: 'xs', staff: [ { role: "Заведующий кафедрой дизайна, рисунка и живописи", name: "Одношовина Юлия Владимировна", roomLabel: "307 каб.", phone: "+7 (351) 216-10-28", photo: "photos/ThirdFloor/Odnoshovina.png" } ] },
-      { id: '322', number: 'Кабинет 322', name: 'Учебный бизнес-центр', x: 48, y: 29, icon: 'icons/ThirdIcons/business.svg', size: 'xs', staff: [ { role: "Руководитель учебного бизнес-центра", name: "Куликова Ольга Сергеевна", roomLabel: "322 каб.", phone: "+7 (351) 216-10-42", photo: "photos/ThirdFloor/Kulikova.jpg" } ] },
-      { id: '312', number: 'Кабинет 312', name: 'Отдел практики и трудоустройства', x: 71, y: 45.5, icon: 'icons/ThirdIcons/Job.svg', size: 'xs', staff: [ { role: "Отдел практики и трудоустройства", name: "Аполовников Андрей Анатольевич", roomLabel: "312 каб.", phone: "+7 (351) 216-10-37", photo: "photos/ThirdFloor/Avatar.jpg" } ] },
-      { id: '314', number: 'Кабинет 314', name: 'Проектно-аналитический офис', x: 71, y: 40, icon: 'icons/ThirdIcons/Analytics.svg', size: 'xs', staff: [ { role: "Руководитель проектно-аналитического центра", name: "Львов Леонид Васильевич", roomLabel: "314 каб.", phone: "+7 (351) 216-10-47", photo: "photos/ThirdFloor/Lvov.png" } ] },
+      { id: '339', number: 'Кабинет 339', name: 'Учебно-методическое управление', x: 11, y: 57, icon: 'icons/ThirdIcons/Metod.svg', size: 'xs', staff: [ { role: "Специалист по учебно-методической работе (кафедра дизайна, рисунка и живописи)", name: "Швецова Надежда Сергеевна", roomLabel: "339 каб.", phone: "+7 (351) 216-10-08", photo: "photos/ThirdFloor/Shvetsova.jpg" } ] },
+      { id: '307', number: 'Кабинет 307', name: 'Кафедра дизайна', x: 44, y: 84, icon: 'icons/ThirdIcons/palette.svg', size: 'xs', staff: [ { role: "Заведующий кафедрой дизайна, рисунка и живописи", name: "Одношовина Юлия Владимировна", roomLabel: "307 каб.", phone: "+7 (351) 216-10-28", photo: "photos/ThirdFloor/Odnoshovina.png" } ] },
+      { id: '322', number: 'Кабинет 322', name: 'Учебный бизнес-центр', x: 48, y: 28, icon: 'icons/ThirdIcons/business.svg', size: 'xs', staff: [ { role: "Руководитель учебного бизнес-центра", name: "Куликова Ольга Сергеевна", roomLabel: "322 каб.", phone: "+7 (351) 216-10-42", photo: "photos/ThirdFloor/Kulikova.jpg" } ] },
+      { id: '312', number: 'Кабинет 312', name: 'Отдел практики и трудоустройства', x: 72.5, y: 45.5, icon: 'icons/ThirdIcons/Job.svg', size: 'xs', staff: [ { role: "Отдел практики и трудоустройства", name: "Аполовников Андрей Анатольевич", roomLabel: "312 каб.", phone: "+7 (351) 216-10-37", photo: "photos/ThirdFloor/Avatar.jpg" } ] },
+      { id: '314', number: 'Кабинет 314', name: 'Проектно-аналитический офис', x: 72.5, y: 40, icon: 'icons/ThirdIcons/Analytics.svg', size: 'xs', staff: [ { role: "Руководитель проектно-аналитического центра", name: "Львов Леонид Васильевич", roomLabel: "314 каб.", phone: "+7 (351) 216-10-47", photo: "photos/ThirdFloor/Lvov.png" } ] },
     ]
   },
   {

@@ -69,6 +69,9 @@ export const FLOORS_DATA = [
       { icon: 'icons/SecondIcons/IT.svg', label: 'Кафедра математики и информатики' },
       { icon: 'icons/SecondIcons/Travel.svg', label: 'Кафедра туризма и сервиса, Кафедра гостеприимства и коммуникаций' },
       { icon: 'icons/SecondIcons/Business.svg', label: 'Проректор по развитию бизнес коммуникаций' },
+      { icon: 'icons/SecondIcons/Finance.svg', label: 'Финансово-экономический отдел' },
+      { icon: 'icons/SecondIcons/Restaurant.svg', label: 'Учебный ресторан' },
+      { icon: 'icons/SecondIcons/Chef.svg', label: 'Учебная кухня' },
     ],
     rooms: [
       { id: '205', number: 'Кабинет 205', name: 'Касса', description: 'Здесь можно оплатить за учёбу', x: 45, y: 90, icon: 'icons/SecondIcons/kassa.svg', size: 'xs', workingHours: {
@@ -79,17 +82,20 @@ export const FLOORS_DATA = [
             { days: 'Воскресенье', hours: 'Выходной', isClosed: true }
           ]
         } },
+      { id: '201', number: 'Кабинет 201', name: 'Финансово-экономический отдел', description: 'Финансово-экономический отдел', x: 35.5, y: 87, icon: 'icons/SecondIcons/Finance.svg', size: 'xs' },
       { id: '203', number: 'Кабинет 203', name: 'Бухгалтерия', description: 'Бухгалтерия', x: 40, y: 87, icon: 'icons/SecondIcons/Accounting.svg', size: 'xs' },
       { id: '208', number: 'Кабинет 208', name: 'Приёмная ректора', x: 59, y: 87, icon: 'icons/SecondIcons/Rector.svg', size: 'xs', staff: [ { role: "Ректор", name: "Усынин Максим Валерьевич", roomLabel: "208 каб.", phone: "+7 (351) 216-10-30", photo: "photos/SecondFloor/Rector.jpg" } ] },
       { id: 'WC4', number: '', name: 'Туалеты', description: 'Мужской и женский туалет', x: 35, y: 70, icon: 'icons/SecondIcons/Toilet.svg', size: 'xs' },
       { id: '209', number: 'Кабинет 209', name: 'Отдел воспитательной работы', x: 69, y: 87, icon: 'icons/SecondIcons/Vospitatel.svg', size: 'xs', staff: [ { role: "Проректор по воспитательной работе", name: "Истомина Александра Владиславовна", roomLabel: "209 каб.", phone: "+7 (351) 216-10-14", photo: "photos/SecondFloor/Istomina.jpg" }, { role: "Проректор по развитию студенческих инициатив", name: "Факидий Линда Евгеньевна", roomLabel: "209 каб.", phone: "+7 (351) 216-10-14", photo: "photos/SecondFloor/Fakidi.jpg" }, { role: "Специалист отдела по воспитательной работе", name: "Баталина Ольга Стефановна", roomLabel: "209 каб.", phone: "+7 (351) 216-10-14", photo: "photos/SecondFloor/Batalina.jpg" } ] },
       { id: 'To7Keys', number: '', name: 'Переход в школу', description: 'Переход в школьное здание. Территория второй обуви', x: 90, y: 18, icon: 'icons/SecondIcons/Arrow.svg', size: 'xs' },
       { id: '211', number: 'Кабинет 211', name: 'Проректор по учебно-проектной работе', x: 88, y: 89, icon: 'icons/SecondIcons/Director.svg', size: 'xs', staff: [ { role: "Проректор по учебно-проектной работе", name: "Попова Наталья Аркадьевна", roomLabel: "211 каб.", phone: "+7 (351) 216-10-20", photo: "photos/SecondFloor/Director.jpg" } ] },
-      { id: '210', number: 'Кабинет 210', name: 'Проректор по научной работе', x: 74, y: 87, icon: 'icons/SecondIcons/Science.svg', size: 'xs', staff: [ { role: "Проректор по научной работе", name: "Дегтеренко Людмила Николаевна", roomLabel: "210 каб.", phone: "+7 (351) 216-10-25", photo: "photos/SecondFloor/Degterenko.png" } ] },
+      { id: '210', number: 'Кабинет 210', name: 'Проректор по научной работе', x: 74.5, y: 87, icon: 'icons/SecondIcons/Science.svg', size: 'xs', staff: [ { role: "Проректор по научной работе", name: "Дегтеренко Людмила Николаевна", roomLabel: "210 каб.", phone: "+7 (351) 216-10-25", photo: "photos/SecondFloor/Degterenko.png" } ] },
       { id: 'WC5', number: '', name: 'Туалеты', description: 'Мужской и женский туалет', x: 70, y: 14, icon: 'icons/SecondIcons/Toilet.svg', size: 'xs' },
       { id: '241', number: 'Кабинет 241', name: 'Кафедра математики и информатики', description: 'Преподавательская кафедры математики и информатики', x: 12.5, y: 40.5, icon: 'icons/SecondIcons/IT.svg', size: 'xs' },
       { id: '234', number: 'Кабинет 234', name: 'Кафедра гостеприимства и международных бизнес-коммуникаций', x: 57, y: 25, icon: 'icons/SecondIcons/Travel.svg', size: 'xs', staff: [ { role: "Директор учебно-производственного комбината (Школа гастрономии и гостиничного дела)", name: "Кажура Игорь Игоревич", roomLabel: "234 каб.", phone: "+7 (351) 216-10-06", photo: "photos/SecondFloor/Kazhura.jpg" }, { role: "Заведующий кафедрой гостеприимства и международных бизнес-коммуникаций", name: "Василиженко Мария Валерьевна", roomLabel: "234 каб.", phone: "+7 (351) 216-10-06", photo: "photos/SecondFloor/Vasilizhenko.jpg" } ] },
       { id: '222', number: 'Кабинет 222', x: 76, y: 41.5, icon: 'icons/SecondIcons/Business.svg', size: 'xs', staff: [ { role: "Проректор по маркетингу и развитию бизнес коммуникаций", name: "Полушина Ирина Сергеевна", roomLabel: "222 каб.", phone: "+7 (351) 216-10-48", photo: "photos/SecondFloor/Polushina.jpg" } ] },
+      { id: '242', number: 'Кабинет 242', name: 'Учебная кухня', description: 'Учебная кухня', x: 39.5, y: 39, icon: 'icons/SecondIcons/Chef.svg', size: 'xs' },
+      { id: '244', number: 'Кабинет 244', name: 'Учебный ресторан', description: 'Учебный ресторан', x: 39.5, y: 57, icon: 'icons/SecondIcons/Restaurant.svg', size: 'xs' },
     ]
   },
   {
@@ -104,7 +110,7 @@ export const FLOORS_DATA = [
     ],
     rooms: [
       { id: 'WC6', number: '', name: 'Туалеты', description: 'Мужской и женский туалет', x: 60, y: 90, icon: 'icons/SecondHalfIcons/Toilet.svg', size: 'xs' },
-      { id: '343', number: 'Кабинет 343', x: 42, y: 96, icon: 'icons/SecondHalfIcons/Calc.svg', size: 'xs', staff: [ { role: "Заведующий кафедрой экономики и управления", name: "Бодрова Екатерина Григорьевна", roomLabel: "343 каб.", phone: "+7 (351) 216-10-51", photo: "photos/SecondFloor/Bodrova.jpg" } ] },
+      { id: '343', number: 'Кабинет 343', x: 41, y: 96, icon: 'icons/SecondHalfIcons/Calc.svg', size: 'xs', staff: [ { role: "Заведующий кафедрой экономики и управления", name: "Бодрова Екатерина Григорьевна", roomLabel: "343 каб.", phone: "+7 (351) 216-10-51", photo: "photos/SecondFloor/Bodrova.jpg" } ] },
       { id: '345', number: 'Кабинет 345', name: 'Преподавательская кафедры экономики и управления', description: 'Преподавательская кафедры экономики и управления', x: 49, y: 90, icon: 'icons/SecondHalfIcons/Lamp.svg', size: 'xs' },
     ]
   },
@@ -124,7 +130,7 @@ export const FLOORS_DATA = [
       { icon: 'icons/ThirdIcons/Analytics.svg', label: 'Проектно-аналитический офис' },
     ],
     rooms: [
-      { id: '303', number: 'Кабинет 303', name: 'Музей моды', description: 'Уникальная коллекция костюмов различных эпох', x: 24.5, y: 85, icon: 'icons/ThirdIcons/Museum.svg', size: 'xs' },
+      { id: '303', number: 'Кабинет 303', name: 'Музей моды', description: 'Уникальная коллекция костюмов различных эпох', x: 24.5, y: 84, icon: 'icons/ThirdIcons/Museum.svg', size: 'xs' },
       { id: 'WC7', number: '', name: 'Туалеты', description: 'Мужской и женский туалет', x: 55, y: 18, icon: 'icons/ThirdIcons/Toilet.svg', size: 'xs' },
       { id: '339', number: 'Кабинет 339', name: 'Учебно-методическое управление', x: 11, y: 57, icon: 'icons/ThirdIcons/Metod.svg', size: 'xs', staff: [ { role: "Специалист по учебно-методической работе (кафедра дизайна, рисунка и живописи)", name: "Швецова Надежда Сергеевна", roomLabel: "339 каб.", phone: "+7 (351) 216-10-08", photo: "photos/ThirdFloor/Shvetsova.jpg" } ] },
       { id: '307', number: 'Кабинет 307', name: 'Кафедра дизайна', x: 44, y: 84, icon: 'icons/ThirdIcons/palette.svg', size: 'xs', staff: [ { role: "Заведующий кафедрой дизайна, рисунка и живописи", name: "Одношовина Юлия Владимировна", roomLabel: "307 каб.", phone: "+7 (351) 216-10-28", photo: "photos/ThirdFloor/Odnoshovina.png" } ] },

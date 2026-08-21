@@ -7,7 +7,7 @@ const Footer = () => {
         
         <div className="flex items-center gap-3.5">
             <img 
-                src="img/Logo.png" 
+                src="img/Logo.svg" 
                 alt="Логотип МИДиС"
                 className="h-7 md:h-8 w-auto object-contain shrink-0"
             />
@@ -27,7 +27,7 @@ const Footer = () => {
             Фронтенд:
           </span>
           <span className="text-gray-800 font-semibold text-[11px] md:text-xs">
-            Новгородов А.Е. Рудаев Я.Д.
+            Новгородов А.Е., Рудаев Я.Д.
           </span>
         </div>
 
